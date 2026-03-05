@@ -112,7 +112,7 @@ def load_confluence_documents():
                 id=record["id"],
                 vector=vectors[index].tolist(),
                 payload={
-                    "information": record["text"],
+                    "content": record["text"],
                     "metadata": record["metadata"],
                 },
             )
