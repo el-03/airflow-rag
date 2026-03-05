@@ -7,3 +7,5 @@
 /qdrant-learning/
 /scripts/
 /dags/tutorial/
+__pycache__/
+*.pyc
